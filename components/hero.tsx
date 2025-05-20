@@ -7,17 +7,17 @@ import Link from "next/link"
 
 const slides = [
   {
-    image: "https://i.ibb.co/hQgN80w/Whats-App-Image-2025-05-17-at-20-06-56-e40b4e2c.jpg",
+    image: "/1.jpg",
     title: "Transformer les Espaces",
     description: "Création d'intérieurs magnifiques qui inspirent et ravissent",
   },
   {
-    image: "https://i.ibb.co/YSKk1Xr/Whats-App-Image-2025-05-17-at-20-06-58-a872d084.jpg",
+    image: "/8.jpg",
     title: "Solutions Élégantes",
     description: "Designs fonctionnels qui correspondent à votre style de vie",
   },
   {
-    image: "https://i.ibb.co/spP7MpMP/Whats-App-Image-2025-05-17-at-20-14-10-547a17ba.jpg",
+    image: "/7.jpg",
     title: "Vie Luxueuse",
     description: "Expérimentez le confort et le style dans chaque pièce",
   },

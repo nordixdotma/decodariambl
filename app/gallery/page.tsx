@@ -16,10 +16,10 @@ export const metadata: Metadata = {
     title: "Galerie | Deco Dari Ameublement",
     description:
       "Découvrez nos transformations spectaculaires d'intérieurs résidentiels, hôteliers et médicaux à Marrakech.",
-    url: "https://decodari.com/gallery",
+    url: "https://decodariambl.ma/gallery",
     images: [
       {
-        url: "https://i.ibb.co/spP7MpMP/Whats-App-Image-2025-05-17-at-20-14-10-547a17ba.jpg",
+        url: "/aboutimage.png",
         width: 1200,
         height: 630,
         alt: "Galerie Deco Dari - Avant/Après",

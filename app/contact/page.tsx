@@ -17,10 +17,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact | Deco Dari Ameublement",
     description: "Contactez notre équipe de design d'intérieur à Marrakech. Obtenez un devis pour votre projet.",
-    url: "https://decodari.com/contact",
+    url: "https://decodariambl.ma/contact",
     images: [
       {
-        url: "https://i.ibb.co/YSKk1Xr/Whats-App-Image-2025-05-17-at-20-06-58-a872d084.jpg",
+        url: "/aboutimage.png",
         width: 1200,
         height: 630,
         alt: "Contactez Deco Dari Ameublement",

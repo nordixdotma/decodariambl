@@ -6,7 +6,7 @@ export default function GalleryHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://i.ibb.co/spP7MpMP/Whats-App-Image-2025-05-17-at-20-14-10-547a17ba.jpg"
+          src="/8.jpg"
           alt="Notre Galerie"
           fill
           className="object-cover"

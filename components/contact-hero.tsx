@@ -6,7 +6,7 @@ export default function ContactHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="https://i.ibb.co/YSKk1Xr/Whats-App-Image-2025-05-17-at-20-06-58-a872d084.jpg"
+          src="/4.jpg"
           alt="Contact Us"
           fill
           className="object-cover"

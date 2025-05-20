@@ -52,8 +52,10 @@ const testimonials = [
   },
 ]
 
+import type { Swiper as SwiperClass } from "swiper"
+
 export default function Testimonials() {
-  const swiperRef = useRef(null)
+  const swiperRef = useRef<SwiperClass | null>(null)
 
   return (
     <section id="testimonials" className="py-12 md:py-20 bg-white overflow-hidden">
@@ -100,7 +102,17 @@ export default function Testimonials() {
   )
 }
 
-function TestimonialCard({ testimonial }) {
+type Testimonial = {
+  id: number
+  name: string
+  role: string
+  image: string
+  quote: string
+  rating: number
+  bgColor: string
+}
+
+function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
   return (
     <div className="relative h-full mt-10 mb-4">
       {/* Card */}

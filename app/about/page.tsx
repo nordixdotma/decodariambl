@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "À Propos | Deco Dari Ameublement",
     description:
       "Découvrez notre histoire, notre expertise et notre processus de design d'intérieur pour résidences, hôtels et établissements médicaux à Marrakech.",
-    url: "https://decodari.com/about",
+    url: "https://decodariambl.ma/about",
     images: [
       {
         url: "/aboutimage.png",
@@ -38,7 +38,7 @@ export default function AboutPage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
-            src="https://i.ibb.co/hQgN80w/Whats-App-Image-2025-05-17-at-20-06-56-e40b4e2c.jpg"
+            src="/2.jpg"
             alt="À Propos de Deco Dari Ameublement"
             fill
             className="object-cover"

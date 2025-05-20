@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://decodari.com"),
+  metadataBase: new URL("https://decodariambl.ma"),
   alternates: {
     canonical: "/",
     languages: {
@@ -52,11 +52,11 @@ export const metadata: Metadata = {
     title: "Deco Dari Ameublement | Design d'Intérieur à Marrakech",
     description:
       "Experts en design d'intérieur pour résidences, hôtels et établissements médicaux à Marrakech. Transformez votre espace avec notre expertise.",
-    url: "https://decodari.com",
+    url: "https://decodariambl.ma",
     siteName: "Deco Dari Ameublement",
     images: [
       {
-        url: "https://i.ibb.co/YSKk1Xr/Whats-App-Image-2025-05-17-at-20-06-58-a872d084.jpg",
+        url: "/aboutimage.png",
         width: 1200,
         height: 630,
         alt: "Deco Dari Ameublement - Design d'Intérieur",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Deco Dari Ameublement | Design d'Intérieur à Marrakech",
     description: "Experts en design d'intérieur pour résidences, hôtels et établissements médicaux à Marrakech.",
-    images: ["https://i.ibb.co/YSKk1Xr/Whats-App-Image-2025-05-17-at-20-06-58-a872d084.jpg"],
+    images: ["/aboutimage.png"],
   },
   viewport: {
     width: "device-width",
@@ -89,7 +89,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-    // generator: 'v0.dev'
 }
 
 export default function RootLayout({
