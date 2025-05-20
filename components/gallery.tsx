@@ -8,18 +8,18 @@ import BeforeAfterSlider from "./before-after-slider"
 const beforeAfterItems = [
   {
     id: 1,
-    beforeImage: "https://i.ibb.co/V0b2Sn7q/Whats-App-Image-2025-05-17-at-20-21-01-3b180bc3.jpg",
-    afterImage: "https://i.ibb.co/1J9bXYHY/Whats-App-Image-2025-05-17-at-20-20-28-8962c466.jpg",
+    beforeImage: "/1.jpg",
+    afterImage: "/1.jpg",
   },
   {
     id: 2,
-    beforeImage: "https://i.ibb.co/rGsvQKtX/Whats-App-Image-2025-05-17-at-20-09-17-330111d9.jpg",
-    afterImage: "https://i.ibb.co/WpVMF90J/Whats-App-Image-2025-05-17-at-20-09-17-e781eaef.jpg",
+    beforeImage: "/1.jpg",
+    afterImage: "/1.jpg",
   },
   {
     id: 3,
-    beforeImage: "https://i.ibb.co/spP7MpMP/Whats-App-Image-2025-05-17-at-20-14-10-547a17ba.jpg",
-    afterImage: "https://i.ibb.co/YSKk1Xr/Whats-App-Image-2025-05-17-at-20-06-58-a872d084.jpg",
+    beforeImage: "/1.jpg",
+    afterImage: "/1.jpg",
   },
 ]
 
