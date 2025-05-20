@@ -66,7 +66,7 @@ export default function Loader() {
         }`}
       >
         <Image
-          src="https://i.ibb.co/d4FV7HCF/logo-black.png"
+          src="/logoblack.png"
           alt="DECO DARI Logo"
           width={120}
           height={60}

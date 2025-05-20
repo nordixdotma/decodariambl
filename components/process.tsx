@@ -17,14 +17,14 @@ const processItems = [
     description:
       "Nous commençons par une consultation approfondie pour comprendre votre vision, vos besoins et votre budget.",
     step: "01",
-    bgImage: "/interior-design-consultation.png",
+    bgImage: "/p1.png",
   },
   {
     icon: <PenTool size={40} />,
     title: "Étude et Conception",
     description: "Nos designers analysent l'espace et créent des plans détaillés basés sur vos exigences.",
     step: "02",
-    bgImage: "/interior-design-sketching.png",
+    bgImage: "/p2.png",
   },
   {
     icon: <Cube size={40} />,
@@ -32,19 +32,21 @@ const processItems = [
     description:
       "Nous créons des visualisations 3D détaillées pour vous permettre de voir le résultat final avant les travaux.",
     step: "03",
-    bgImage: "/interior-design-implementation.png",
+    bgImage: "/p3.png",
   },
   {
     icon: <CheckCircle size={40} />,
     title: "Exécution",
     description: "Notre équipe qualifiée met en œuvre le design avec une attention méticuleuse aux détails.",
     step: "04",
-    bgImage: "/completed-interior-design.png",
+    bgImage: "/p4.png",
   },
 ]
 
+import type { Swiper as SwiperType } from "swiper"
+
 export default function Process() {
-  const swiperRef = useRef(null)
+  const swiperRef = useRef<SwiperType | null>(null)
 
   return (
     <section id="process" className="py-20 bg-white overflow-hidden">
@@ -97,7 +99,15 @@ export default function Process() {
   )
 }
 
-function ProcessCard({ icon, title, description, step, bgImage }) {
+type ProcessCardProps = {
+  icon: React.ReactNode
+  title: string
+  description: string
+  step: string
+  bgImage: string
+}
+
+function ProcessCard({ icon, title, description, step, bgImage }: ProcessCardProps) {
   return (
     <div className="relative h-full">
       {/* Card */}

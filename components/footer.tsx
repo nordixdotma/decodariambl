@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <Link href="/">
               <Image
-                src="https://i.ibb.co/GQfRfVCN/Picsart-25-05-19-17-30-34-447.png"
+                src="/logowhite.png"
                 alt="DARI Logo"
                 width={120}
                 height={60}
@@ -75,7 +75,12 @@ export default function Footer() {
   )
 }
 
-function SocialLink({ href, icon }) {
+type SocialLinkProps = {
+  href: string;
+  icon: React.ReactNode;
+};
+
+function SocialLink({ href, icon }: SocialLinkProps) {
   return (
     <Link
       href={href}
@@ -88,7 +93,12 @@ function SocialLink({ href, icon }) {
   )
 }
 
-function FooterLink({ href, children }) {
+type FooterLinkProps = {
+  href: string;
+  children: React.ReactNode;
+};
+
+function FooterLink({ href, children }: FooterLinkProps) {
   return (
     <li>
       <Link href={href} className="hover:text-gray-300 transition-colors footer-link text-sm md:text-base">

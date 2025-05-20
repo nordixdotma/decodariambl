@@ -51,7 +51,7 @@ export default function Header() {
             {/* Conditional rendering of logos based on scroll position */}
             {isScrolled ? (
               <Image
-                src="https://i.ibb.co/d4FV7HCF/logo-black.png"
+                src="/logoblack.png"
                 alt="DARI Logo"
                 width={120}
                 height={60}
@@ -59,7 +59,7 @@ export default function Header() {
               />
             ) : (
               <Image
-                src="https://i.ibb.co/GQfRfVCN/Picsart-25-05-19-17-30-34-447.png"
+                src="/logowhite.png"
                 alt="DARI Logo"
                 width={120}
                 height={60}
@@ -105,7 +105,7 @@ export default function Header() {
           {/* Top Header with Logo and Close Button */}
           <div className="p-4 flex items-center justify-between border-b border-gray-100">
             <Image
-              src="https://i.ibb.co/d4FV7HCF/logo-black.png"
+              src="/logoblack.png"
               alt="DARI Logo"
               width={120}
               height={60}

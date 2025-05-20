@@ -14,7 +14,7 @@ const testimonials = [
     id: 1,
     name: "Fatima Benali",
     role: "Propriétaire",
-    image: "/moroccan-woman-1.png",
+    image: "t4.png",
     quote:
       "DECO DARI a complètement transformé notre maison. Leur expertise en design d'intérieur a créé un espace à la fois élégant et fonctionnel.",
     rating: 5.0,
@@ -24,7 +24,7 @@ const testimonials = [
     id: 2,
     name: "Mohammed El Amrani",
     role: "Propriétaire d'Entreprise",
-    image: "/moroccan-man-1.png",
+    image: "t2.png",
     quote:
       "L'équipe de DECO DARI a conçu notre espace de bureau avec un parfait équilibre entre esthétique et fonctionnalité. Un travail remarquable!",
     rating: 5.0,
@@ -34,7 +34,7 @@ const testimonials = [
     id: 3,
     name: "Amina Tazi",
     role: "Propriétaire d'Appartement",
-    image: "/moroccan-woman-2.png",
+    image: "t3.png",
     quote:
       "Je suis impressionnée par la capacité de DECO DARI à maximiser notre petit espace tout en créant une ambiance luxueuse et accueillante.",
     rating: 5.0,
@@ -44,7 +44,7 @@ const testimonials = [
     id: 4,
     name: "Youssef Alaoui",
     role: "Architecte",
-    image: "/moroccan-man-2.png",
+    image: "t1.png",
     quote:
       "En tant qu'architecte, j'apprécie le souci du détail et la créativité que DECO DARI apporte à chaque projet. Une collaboration exceptionnelle.",
     rating: 5.0,

@@ -21,7 +21,7 @@ export default function About() {
               <div className="absolute inset-0 bg-primary/20 rounded-2xl transform transition-transform duration-500 group-hover:translate-x-3 group-hover:translate-y-3"></div>
               <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 <Image
-                  src="https://i.ibb.co/9HzHm6L2/3d1.png"
+                  src="/aboutimage.png"
                   alt="Exemple de design d'intérieur moderne par Deco Dari Ameublement à Marrakech"
                   width={800}
                   height={600}
