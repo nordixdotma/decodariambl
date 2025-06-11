@@ -8,8 +8,8 @@ import BeforeAfterSlider from "./before-after-slider"
 const beforeAfterItems = [
   {
     id: 1,
-    beforeImage: "/1.jpg",
-    afterImage: "/1.jpg",
+    beforeImage: "/b1.jpg",
+    afterImage: "/a1.jpg",
   },
   {
     id: 2,

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://decodari.com/sitemap.xml",
+    sitemap: "https://decodariambl.ma/sitemap.xml",
   }
 }

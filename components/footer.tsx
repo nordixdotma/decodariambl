@@ -65,7 +65,7 @@ export default function Footer() {
           </p>
           <p className="text-center md:text-left mt-2 md:mt-0">
             Développé et conçu par{" "}
-            <Link href="https://www.instagram.com/notnordix" className="hover:underline" target="_blank">
+            <Link href="https://www.instagram.com/nordix.ma" className="hover:underline" target="_blank">
               <span className="text-black font-bold">NORDIX</span>
             </Link>
           </p>
